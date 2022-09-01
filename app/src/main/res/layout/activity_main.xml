@@ -11,24 +11,18 @@
     tools:context=".SplashActivity">
 
     <ImageView
-        android:layout_gravity="center"
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
         android:layout_height="250dp"
-        app:srcCompat="@drawable/deliveryboy" />
+        app:srcCompat="@drawable/shopping" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="92dp"
-        android:layout_gravity="center"
-        android:text="You Order we dedeliver" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_add_cart" />
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/deliveryboy" />
 
     <TextView
         android:id="@+id/textView2"
@@ -39,6 +33,13 @@
         android:textSize="25sp"
         android:textStyle="bold"
         android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/button_intent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
 
 
 </LinearLayout>
